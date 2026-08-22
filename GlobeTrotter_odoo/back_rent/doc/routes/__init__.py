@@ -1,0 +1,9 @@
+from .auth import router as auth_router
+from .trips import router as trips_router
+from .itineraries import router as itineraries_router
+from .cities import router as cities_router
+from .activities import router as activities_router
+from .budgets import router as budgets_router
+from .venues import router as venues_router
+from .bookings import router as bookings_router
+from .upload import router as upload_router
