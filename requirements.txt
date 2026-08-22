@@ -1,0 +1,31 @@
+# Core FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+pymysql
+mysqlclient
+mysql-connector-python
+
+# Authentication and security
+passlib[bcrypt]==1.7.4
+bcrypt==3.2.2
+python-jose[cryptography]
+python-multipart
+
+# Environment and configuration
+python-dotenv
+pydantic[email]
+pydantic-settings
+
+# File handling and cloud services
+cloudinary
+
+# Testing
+pytest
+httpx
+
+# Email services (optional)
+brevo-python
+sib_api_v3_sdk
